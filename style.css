@@ -18,7 +18,7 @@
     justify-content: space-between;
     height: 10vh;
     width: 92vw;
-    background-color: rgba(39, 46, 42, 0.8);
+    background-color: rgba(250, 250, 250, 0.8);
     align-items: center;
     padding: 0 4vw;
 }
@@ -41,18 +41,18 @@
 }
 
 .nav-list a:hover{
-    background-color: aliceblue;
+    background-color: rgb(39, 46, 42);
     border-radius: 25px;
     padding: 15px 30px;
     transition: 0.3s ease;
 }
 
 .nav-list a.active{
-    color: aliceblue;
+    color: rgb(39, 46, 42);
 }
 
 .nav-list a.active:hover{
-    color: rgb(39, 46, 42);
+    color: aliceblue;
 }
 
 .btn{
@@ -219,4 +219,45 @@ body {
 }
 .gfg-button:active {
     background: rgb(39, 46, 42);
+}
+
+.bgManagement{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(./img/bgManagement.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.managementBox{
+    width: 430px;
+    height: 500px;
+    padding: 20px 35px 15px 35px;
+    border-radius: 35px;
+    background-color: rgba(250, 250, 250, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxWrapper{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.manage{
+    font-size: 25px;
+    background-color:rgb(39, 46, 42);
+    width: 25vw;
+    padding: 30px 45px;
+    color: #ecf0f3;
+}
+
+.manage:hover{
+    background-color: #F0A500;
+    color: #000;
+    transition: 0.6s ease;
 }
